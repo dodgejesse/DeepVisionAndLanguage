@@ -1,0 +1,3 @@
+
+Deep Fragment Embeddings for Bidirectional Image Sentence Mapping
+http://arxiv.org/pdf/1406.5679v1.pdf
