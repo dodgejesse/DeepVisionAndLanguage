@@ -1,6 +1,6 @@
 
 #running from commandline
-#python extracting_noun_phrases.py /home/jessed/data_storage/data_sets/deep_vision_and_language/rawValSents /home/jessed/data_storage/data_sets/deep_vision_and_language/rawValParses.txt
+#python extracting_noun_phrases.py /home/jessed/data_storage/data_sets/deep_vision_and_language/rawTrainSents /home/jessed/data_storage/data_sets/deep_vision_and_language/rawTrainParses.txt NN output_file.txt
 import sys
 import re
 
