@@ -1,4 +1,3 @@
-
 #running from commandline
 #python extracting_noun_phrases.py /home/jessed/data_storage/data_sets/deep_vision_and_language/rawTrainSents /home/jessed/data_storage/data_sets/deep_vision_and_language/rawTrainParses.txt NN output_file.txt
 import sys
@@ -14,6 +13,7 @@ def write_to_doc_as_matrix(image_num_to_constituents, path):
     with open(path, 'a+') as f:
         for i_num in image_num_to_constituents:
             f.write('\t'.join(map(str, [i_num] + image_num_to_constituents[i_num])) + '\n');
+    f.close();
 
 def get_sent_from_parse(parse):
     tokens = parse.split(' ');
