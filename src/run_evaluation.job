@@ -1,0 +1,8 @@
+#!/bin/bash
+#PBS -l ncpus=4
+#PBS -l pmem=16000mb
+#PBS -l walltime=600:00:00
+#PBS -d .
+#PBS -j oe
+# Redirect, so don't have to wait till job finish to see stdout/stderr
+/opt/matlab/7.13/bin/glnxa64/MATLAB -nodisplay -r run_evaluation
